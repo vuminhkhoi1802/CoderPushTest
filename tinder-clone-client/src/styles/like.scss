@@ -1,0 +1,29 @@
+.liked {
+  width: 500px;
+  margin: 50px auto;
+  height: 650px;
+  .ant-card {
+    width: 250px;
+    margin: 5px 0;
+    .ant-card-body {
+      width: 250px;
+      img {
+        height: 100px;
+        width: 250px;
+      }
+    }
+
+    .card-info-name {
+      position: absolute;
+      bottom: 0px;
+      font-weight: bold;
+      width: 185px;
+      text-align: center;
+      background-color: rgb(189, 185, 185);
+    }
+  }
+
+  .ant-pagination {
+    margin: 15px 0;
+  }
+}

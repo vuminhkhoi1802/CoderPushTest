@@ -1,0 +1,23 @@
+.matches {
+    width: 500px;
+    margin: 50px auto;
+    height: 650px;
+    .ant-card{
+      height: 50px;
+      margin: 5px 0;
+      .ant-card-body{
+        padding: 8px;
+        img{
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+        }
+      }
+     
+    }
+    .ant-pagination {
+        margin: 15px 0;
+        text-align: center;
+      }
+  }
+  

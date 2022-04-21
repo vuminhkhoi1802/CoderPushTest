@@ -1,0 +1,32 @@
+.home {
+  width: 500px;
+  margin: 50px auto;
+  height: 500px;
+  .carousel {
+    height: 500px;
+    .info {
+      padding: 10px;
+    }
+    .carousel-item {
+      .actions-users {
+        position: absolute;
+        bottom: 20px;
+        left: 40%;
+      }
+    }
+    .images-icon {
+      border-radius: 50%;
+      border: 1px solid #b4adad;
+      margin: 0 5px;
+      background-color: #ffffff;
+      img {
+        width: 23px;
+        height: 23px;
+      }
+    }
+  }
+  .info {
+    height: 100px;
+    background-color: #f1eeee;
+  }
+}
